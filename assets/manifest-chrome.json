@@ -1,0 +1,17 @@
+
+
+{
+    "name": "one step search",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "scripting",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+}
